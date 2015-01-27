@@ -19,7 +19,7 @@ function fact(n) {
 		s.push(n--);
 	}
 	var product = 1;
-	while (s.lenght() > 0) {
+	while (s.length() > 0) {
 		product *= s.pop();
 	}
 	return product;
